@@ -1,5 +1,7 @@
 package com.iot.test.vo;
 
+import java.sql.Date;
+
 public class UserClass {
 	private int ciNo;
 	private String ciName;

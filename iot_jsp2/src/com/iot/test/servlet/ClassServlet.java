@@ -18,7 +18,7 @@ import com.iot.test.service.UserService;
 import com.iot.test.service.impl.ClassServiceImpl;
 import com.iot.test.service.impl.UserServiceImpl;
 import com.iot.test.vo.ClassInfo;
-//@WebServlet("/class/list") ÀÌ·¸°ÔÇÏ¸é web.xml¿¡ ¸ÊÇÎÀ» ¾ÈÇØÁàµÎµÊ
+//@WebServlet("/class/list") ï¿½Ì·ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ web.xmlï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½
 public class ClassServlet extends HttpServlet {
 	ClassService cs = new ClassServiceImpl();
 	Gson gs = new Gson();
