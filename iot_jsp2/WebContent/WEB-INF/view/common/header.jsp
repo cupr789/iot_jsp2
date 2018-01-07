@@ -13,6 +13,8 @@ if(user!=null){
 <link rel="stylesheet" href="<%=rootPath%>/ui/css/bootstrap.min.css">
 <link rel="stylesheet" href="<%=rootPath%>/ui/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="<%=rootPath%>/ui/css/common.css">
+
+
 	<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
