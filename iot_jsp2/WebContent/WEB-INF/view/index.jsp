@@ -1,6 +1,6 @@
 <%
 if(user==null){
-	//response.sendRedirect("/view/user/login");
+	response.sendRedirect("/view/user/login");
 }else{
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -10,7 +10,7 @@ if(user==null){
 <title>IOT_TEST</title>
 </head>
 <body>
-	<jsp:include page="/WEB-INF/view/common/header.jsp" flush="false" />
+	<jsp:include page="/WEB-INF/view/common/header.jspf" flush="false" />
     <div class="container">
 
       <div class="starter-template">
