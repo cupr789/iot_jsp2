@@ -46,4 +46,34 @@
 			<trim-directive-whitespaces>true</trim-directive-whitespaces>
 		</jsp-property-group>
 	</jsp-config>
+	
+	
+	<!-- filter setting -->
+	<filter> 
+ 		<filter-name>EncodingFilter</filter-name> 
+ 		<filter-class>com.iot.test.filter.EncodingFilter</filter-class> 
+ 		<init-param> 
+ 			<param-name>ignorePattern</param-name> 
+ 			<param-value>.*(css|jsp|pang|gif|gs|js|woff2)</param-value> 
+ 		</init-param> 
+ 	</filter> 
+ 	<filter-mapping> 
+ 		<filter-name>EncodingFilter</filter-name> 
+ 		<url-pattern>/*</url-pattern> 
+ 	</filter-mapping> 
+ 	<filter> 
+ 		<filter-name>AuthFilter</filter-name> 
+ 		<filter-class>com.iot.test.filter.AuthFilter</filter-class> 
+ 		<init-param> 
+ 			<param-name>ignorePattern</param-name> 
+ 			<param-value>.*(css|pang|gif|gs|js)</param-value> 
+ 		</init-param> 
+ 	</filter> 
+ 	<filter-mapping> 
+ 		<filter-name>AuthFilter</filter-name> 
+ 		<url-pattern>/*</url-pattern> 
+ 	</filter-mapping> 
+	
+	
+	
 </web-app>
